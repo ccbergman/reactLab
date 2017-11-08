@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Graph {
+  font-size: 20px;
+  padding: 2%;
+  margin: 4%;
+}
+
+.GraphBar {
+  width: 100%;
+  display: flex;
+  margin: 3%;
+}
+
+.graphLabels {
+  width: 38%;
+}
+
+.bars {
+  border: solid black 1.5px;
+  text-align: center;
+}
+
+.holidayTypeLabel {
+  padding: 5% 1% 1% 1%;
+  text-align: left;
+  border-radius: 3px;
+  margin: auto;
+}
+
+.value {
+  background-color: rgb(79, 192, 226);
+  border: solid black 1px;
+  width: 50px;
+  padding: 2%;
+  text-align: center;
+  margin-left: 2%
+}
+
+.votingButtons {
+  padding: 2%;
+  margin-top: 3%;
+  border: solid black 1.5px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.votingButtons button {
+  background-color: rgb(87, 84, 238);
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 1%;
+  width: 150px;
+  margin: 1%;
+}
